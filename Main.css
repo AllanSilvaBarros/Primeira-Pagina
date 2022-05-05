@@ -1,0 +1,95 @@
+:root{
+    --vermelho: red ;
+    --preto: Black ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Logo{
+    margin-left: 5px;
+    color: red;
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*destaque do site*/
+
+.jogo-em-destaque{
+    font-size: 16px;
+    background: url('img/capa.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-em-destaque .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.box-jogos{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
